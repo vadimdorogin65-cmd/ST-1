@@ -1,3 +1,4 @@
+// Copyright 2025 UNN-CS
 #include <gtest/gtest.h>
 #include "alg.h"
 
@@ -42,7 +43,7 @@ TEST(NextPrimeTest, FromPrime) {
 
 
 TEST(SumPrimeTest, SmallBound) {
-    EXPECT_EQ(sumPrime(10), 17); 
+    EXPECT_EQ(sumPrime(10), 17);
 }
 
 TEST(SumPrimeTest, ZeroAndTwo) {
@@ -51,7 +52,7 @@ TEST(SumPrimeTest, ZeroAndTwo) {
 }
 
 TEST(SumPrimeTest, LargerBound) {
-    EXPECT_EQ(sumPrime(20), 77); 
+    EXPECT_EQ(sumPrime(20), 77);
 }
 
 TEST(DummyTest, Smoke) {
